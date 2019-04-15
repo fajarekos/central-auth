@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/app.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Central <b class="text-danger">Auth</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        </div>
+    </div>
+</nav>
+<section class="container">
+    <div class="wrapper mt-3">
+        <div class="sidebar">
+            <div class="sidebar-profile">
+                    <span>
+                        <img src="https://images.unsplash.com/photo-1510520434124-5bc7e642b61d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="img-fluid" alt="">
+                    </span>
+                <h5>Jasmine Smith</h5>
+                <h6 class="text-danger">JS8876</h6>
+            </div>
+            <div class="sidebar-heading">
+                <h4>Main Navigation</h4>
+            </div>
+            <ul class="list-unstyled list">
+                <li class="list-item">
+                    <a href="#"><i class="icon-list"></i> List Applications</a>
+                </li>
+                <li class="list-item">
+                    <a href="#"><i class="icon-check"></i> Authorization Applications</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="text-danger"><i class="icon-close"></i> Logout</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-heading">
+                <h4>Edit Applications</h4>
+
+                <button class="btn btn-secondary btn-alt btn-md"><i class="icon-arrow-left-circle pr-2"></i>Back</button>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="name">Application Name</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="url">Redirect URL</label>
+                                    <input type="text" class="form-control" id="url">
+                                    <small class="form-text">Use one line per URI</small>
+                                    <small class="form-text">Use <span class="text-danger">urn:ietf:wg:oauth:2.0:oob</span> if you want to add localhost URIs for development purposes</small>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="scopes">Scopes</label>
+                                    <input type="text" class="form-control" id="scopes">
+                                    <small id="emailHelp" class="form-text">Separate scopes with spaces. Leave blank to use the default scopes.</small>
+                                </div>
+
+                                <span>
+                                    <label for="confidential">Confidential</label>
+                                </span>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="confidential">
+                                    <label class="form-check-label" for="confidential">Application will be used where the client secret can be kept confidential. Native mobile apps and Single Page Apps are considered non-confidential.</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-warning btn-alt btn-md"><i class="icon-arrow-right-circle pr-2"></i> Updated</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

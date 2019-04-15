@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/app.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Central <b class="text-danger">Auth</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        </div>
+    </div>
+</nav>
+<section class="container">
+    <div class="wrapper mt-3">
+        <div class="sidebar">
+            <div class="sidebar-profile">
+                    <span>
+                        <img src="https://images.unsplash.com/photo-1510520434124-5bc7e642b61d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="img-fluid" alt="">
+                    </span>
+                <h5>Jasmine Smith</h5>
+                <h6 class="text-danger">JS8876</h6>
+            </div>
+            <div class="sidebar-heading">
+                <h4>Main Navigation</h4>
+            </div>
+            <ul class="list-unstyled list">
+                <li class="list-item">
+                    <a href="#"><i class="icon-list"></i> List Applications</a>
+                </li>
+                <li class="list-item">
+                    <a href="#"><i class="icon-check"></i> Authorization Applications</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="text-danger"><i class="icon-close"></i> Logout</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-heading">
+                <h4>Your Applications</h4>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <table class="table mb-4">
+                                <tr>
+                                    <td>App Name</td>
+                                    <td>:</td>
+                                    <td><span class="text-dark">Cashplus</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Application ID</td>
+                                    <td>:</td>
+                                    <td><span class="text-danger text-marked">5bdcbd3302ad24b2ace15d0707243c183f3d2ccb55fc9882d7f856d1d4a92ac1</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Secret ID</td>
+                                    <td>:</td>
+                                    <td><span class="text-danger text-marked">22e5921d611b1804cedf74b135d6b70284cd7749fe04aa44508563ca07e70d80</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Scopes</td>
+                                    <td>:</td>
+                                    <td><span class="text-dark">Read</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Credentials</td>
+                                    <td>:</td>
+                                    <td><span class="badge badge-warning">True</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Callback URL</td>
+                                    <td>:</td>
+                                    <td>
+                                        <span class="text-danger text-marked">https://sample.id/auth/callback</span>
+                                        <button class="btn btn-success btn-alt btn-sm">Authorize</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="card-actions">
+                                <button type="button" class="btn btn-warning btn-alt btn-sm">
+                                    <i class="icon-note"></i> Edit
+                                </button>
+                                <button type="button" class="btn btn-danger btn-alt btn-sm">
+                                    <i class="icon-trash"></i> Destroy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

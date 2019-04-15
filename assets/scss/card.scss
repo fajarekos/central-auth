@@ -1,0 +1,30 @@
+.card {
+  border: 0;
+  color: #4d4d4d;
+
+  &-body {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &-title {
+    font-size: 0.95em;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.5em;
+  }
+
+  &-text {
+    font-size: 0.85em;
+    letter-spacing: 0.03em;
+  }
+
+  &-icon {
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    font-size: 10em;
+    z-index: 1;
+    color: fade-out($dark-grey, 0.9);
+  }
+}

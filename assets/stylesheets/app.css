@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+.content {
+  width: 75%;
+  padding: 1.25em 1.5em;
+  border-radius: 5px;
+  background-color: rgba(189, 195, 199, 0.1);
+}
+.content-heading {
+  border-bottom: 1px solid rgba(77, 77, 77, 0.1);
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-heading h4 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  color: #34495e;
+  width: 25%;
+  padding: 1.25em 1.5em 1.25em 0;
+}
+.sidebar-profile {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.sidebar-profile span {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 0.1em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 6px rgba(52, 73, 94, 0.1);
+}
+.sidebar-profile span img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.sidebar-profile h5 {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+.sidebar-profile h6 {
+  font-size: 0.65em;
+}
+.sidebar-heading {
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
+}
+.sidebar-heading h4 {
+  margin-bottom: 0;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.sidebar .list-item {
+  padding: 1em 1.5em;
+  font-size: 0.65em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0.03em;
+  border: 1px solid rgba(189, 195, 199, 0.2);
+  border-radius: 25px;
+  background-color: rgba(189, 195, 199, 0.1);
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+.sidebar .list-item a {
+  color: #34495e;
+}
+.sidebar .list-item a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.sidebar .list-item i {
+  color: #34495e;
+  font-size: 1.5em;
+  padding-right: 1em;
+}
+.sidebar .list-item:hover {
+  background-color: #34495e;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+.sidebar .list-item:hover i {
+  color: #ffffff;
+}
+.sidebar .list-item:hover a {
+  color: #ffffff;
+}
+
+.btn-md {
+  min-height: 3.25em;
+}
+.btn-sm {
+  min-height: 2.75em;
+}
+.btn-alt {
+  font-size: 0.65em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(77, 77, 77, 0.2);
+}
+
+.card {
+  border: 0;
+  color: #4d4d4d;
+}
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+.card-title {
+  font-size: 0.95em;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.5em;
+}
+.card-text {
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+}
+.card-icon {
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+  font-size: 10em;
+  z-index: 1;
+  color: rgba(189, 195, 199, 0.1);
+}
+
+.table thead tr th {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: rgba(52, 73, 94, 0.8);
+  border-bottom: 1px solid rgba(52, 73, 94, 0.2);
+  border-top: 0;
+}
+.table thead tr th:first-child {
+  padding-left: 0;
+}
+.table tr {
+  border-top: 1px solid rgba(189, 195, 199, 0.2);
+}
+.table tr:first-child {
+  border-top: 0;
+}
+.table tr td {
+  font-size: 0.75em;
+  letter-spacing: 0.03em;
+  border-top: 0;
+  padding: 0.85em 1.25em;
+  vertical-align: middle;
+}
+.table tr td:first-child {
+  font-size: 0.65em;
+  padding-left: 0;
+  padding-right: 0;
+  text-transform: uppercase;
+}
+.table tr td:last-child {
+  font-weight: 600;
+}
+
+.text-danger {
+  color: #c0392b;
+}
+
+.navbar-brand {
+  color: #34495e;
+  text-transform: uppercase;
+}
+
+.form-text {
+  font-size: 0.78em;
+  color: rgba(52, 73, 94, 0.6);
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #34495e;
+}
+
+label {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: rgba(52, 73, 94, 0.8);
+}
+
+body {
+  color: #4d4d4d;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=app.css.map */
